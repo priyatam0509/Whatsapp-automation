@@ -12,7 +12,7 @@ RM.click()
 testinput = driver.find_element_by_xpath("/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]")
 for i in range(150):
     testinput.send_keys("Hii Welcome to whatsapp")
-    testinput.send_keys("ganja kwaa bhailog")
+    testinput.send_keys("gana kwaa bhailog")
     testinput.send_keys(Keys.RETURN)
 
 
